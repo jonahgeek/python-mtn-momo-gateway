@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mtn_momo_gateway"
+version = "0.1.1"
+authors = [
+  { name="Jonathan Mwebaze", email="jonahgeek@gmail.com" },
+]
+description = "MTN MOMO Gateway - a Python package that simplifies the process of interacting with the MTN Mobile Money (MoMo) API, making it easy to create API users, generate API keys, and obtain bearer tokens for secure transactions."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jonahgeek/python-mtn-momo-gateway"
+"Bug Tracker" = "https://github.com/jonahgeek/python-mtn-momo-gateway/issues"
